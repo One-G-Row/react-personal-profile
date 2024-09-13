@@ -29,7 +29,7 @@ function Contact() {
     <div className="contact_page">
       <NavBar />
       <form ref={form} onSubmit={sendEmail} className="contact">
-        <h1 className="contact-me text-2xl font-bold">contact me</h1>
+        <h1 className="contact-me text-2xl font-bold">#contact me</h1>
         <label>
           Name
           <input type="text" name="name" placeholder="Your Name" required />
@@ -49,7 +49,7 @@ function Contact() {
         </label>
         <label>Message</label>
         <textarea name="message" placeholder="Your Message" required />
-      
+
         <button type="submit" className="submit">
           Send Message
         </button>

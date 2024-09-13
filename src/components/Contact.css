@@ -3,8 +3,9 @@
   font-size: 24pt;
   text-align: center;
 }
-.contact_me {
+.contact-me {
   color: #fff;
+  text-align: center;
 }
 .submit {
   width: 15vw;

@@ -1,11 +1,13 @@
 import NavBar from "./NavBar";
+import "./About.css";
 function About() {
   return (
     <div>
       <NavBar />
       <div className="about">
-        <h1 className="text-2xl font-bold">#about-me</h1>
-        <p>
+        <h1 className="about-heading text-2xl font-bold">#about-me</h1>
+        <div className="about-me">
+          <p>
           I am a full-stack developer with expertise in HTML, CSS, JavaScript,
           and the React.js library for front-end development. On the back-end, I
           have strong skills in Python and the Flask framework. I completed a
@@ -18,8 +20,10 @@ function About() {
           I am passionate about integrating business insights with technology to
           address challenges and create innovative solutions.
         </p>
+        </div>
+        </div>
       </div>
-    </div>
+   
   );
 }
 export default About;
