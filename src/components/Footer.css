@@ -1,0 +1,23 @@
+.footer {
+  color: white;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  height: 12vh;
+  background-color: gray;
+  position: relative;
+  bottom: -75px;
+  /* margin-top: 20px; */
+}
+.footer .links {
+  padding: 10px;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.icons {
+  background-color: gray;
+  width: 32px;
+  height: 32px;
+}

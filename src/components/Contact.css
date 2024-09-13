@@ -1,0 +1,65 @@
+.contact_me {
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+}
+.contact_me {
+  color: #fff;
+}
+.submit {
+  width: 15vw;
+  height: 10vh;
+  margin: 20px auto;
+  border-radius: 10px;
+  background: #fff;
+  color: rgb(31, 13, 35);
+  font-weight: bold;
+}
+.contact_page {
+  background-color: gray;
+  height: 100vh;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 3%;
+  height: 75vh;
+  padding: 20px;
+  float: center;
+  border-radius: 10px;
+}
+
+.contact label {
+  margin-left: 20px;
+}
+
+.contact input,
+textarea {
+  background-color: rgb(31, 13, 35);
+  width: 60%;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 8%;
+  border: 1px solid rgb(31, 13, 35);
+}
+
+textarea {
+  height: 20vh;
+  width: 80%;
+}
+
+#name,
+#email,
+#address,
+#phone,
+#comment {
+  padding: 20px;
+  margin: 10px;
+  height: 7%;
+  width: 70%;
+  background-color: rgb(31, 13, 35);
+}

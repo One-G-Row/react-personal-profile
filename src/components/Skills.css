@@ -1,0 +1,21 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.tables {
+  display: inline-flex;
+}
+
+.tables table {
+  border: 1px solid white;
+  margin: 15px;
+  width: 30%;
+  height: 50%;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tables .headers {
+  border-bottom: 1px solid white;
+}
