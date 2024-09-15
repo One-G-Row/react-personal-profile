@@ -1,15 +1,21 @@
+.project-div {
+  width: 80%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .project-card {
   display: inline-flex;
   border: 1px solid white;
   margin: 15px;
-  width: 30%;
+  width: 30vw;
   height: 84vh;
   flex-direction: column;
   border-radius: 10px;
 }
 
 .project-img {
-  width: 100%;
+  width: 100vw;
   height: 25vh;
   border-start-end-radius: 10px;
   border-start-start-radius: 10px;
