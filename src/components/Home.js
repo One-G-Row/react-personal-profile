@@ -32,7 +32,7 @@ function Home() {
           </p>
         </div>
         <button className="cv" /* onClick={cv} */>
-          <Link to={cv} target="_blank">
+          <Link to={cv} target="_blank" className="cv-link">
             Download CV
           </Link>
         </button>

@@ -1,15 +1,31 @@
-.about-heading{
-    text-align: center;
+.about-heading {
+  text-align: center;
 }
-.about-me{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
-    width: 70%;
-    background-color: gray;
-    color: white;
-    padding: 10px;
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 70%;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  position: relative;
+  top: 5vh;
+}
+
+.about-me:hover {
+  background-color: rgb(71, 67, 67);
+}
+
+.about-me-text {
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: center;
+}
+.about-me-text:hover {
+  background-color: white;
+  color: rgb(31, 13, 35);
 }

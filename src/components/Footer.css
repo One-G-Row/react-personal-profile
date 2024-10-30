@@ -1,13 +1,11 @@
 .footer {
   color: white;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   height: 12vh;
   background-color: gray;
+  opacity: 0.9;
   position: relative;
   bottom: -75px;
-  /* margin-top: 20px; */
 }
 .footer .links {
   padding: 10px;
